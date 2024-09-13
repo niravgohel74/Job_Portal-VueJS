@@ -1,3 +1,13 @@
+<script setup>
+import Navbar from '@/components/Navbar.vue';
+import Hero from '@/components/Hero.vue';
+import HomeCards from './components/HomeCards.vue';
+import Job_Listing from './components/Job_Listing.vue';
+</script>
+
 <template>
-  <h1 class="text-3xl bg-green-500 bold text-center">Job Portal</h1>
+  <Navbar />
+  <Hero  />
+  <HomeCards />
+  <Job_Listing />
 </template>
