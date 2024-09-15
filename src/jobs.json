@@ -83,6 +83,48 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
+    },
+    {
+      "id": "616c",
+      "titel": "Bruno Beard",
+      "type": "Internship",
+      "description": "Ducimus ad totam cu",
+      "salary": "$70K - $80K",
+      "location": "Fugit necessitatibu",
+      "company": {
+        "name": "Barron Carr Trading",
+        "description": "Amet modi doloribus",
+        "contactEmail": "peqanujumy@mailinator.com",
+        "contactPhone": "+1 (586) 629-4438"
+      }
+    },
+    {
+      "id": "e206",
+      "titel": "Brady Edwards",
+      "type": "Remote",
+      "description": "Veritatis esse quis ",
+      "salary": "$60K - $70K",
+      "location": "Proident consequatu",
+      "company": {
+        "name": "Thornton Kline Associates",
+        "description": "Numquam explicabo M",
+        "contactEmail": "jofu@mailinator.com",
+        "contactPhone": "+1 (685) 775-8272"
+      }
+    },
+    {
+      "id": "0a59",
+      "titel": "Philip Ellis",
+      "type": "Internship",
+      "description": "Quos in voluptas et ",
+      "salary": "$80K - $90K",
+      "location": "Odio dicta ea non in",
+      "company": {
+        "name": "Fischer and Burris Plc",
+        "description": "Rerum quia velit pro",
+        "contactEmail": "teticy@mailinator.com",
+        "contactPhone": "+1 (616) 966-5203"
+      }
     }
   ]
 }
