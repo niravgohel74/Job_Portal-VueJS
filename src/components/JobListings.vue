@@ -34,7 +34,7 @@ onMounted(async () => {
 <template>
     <section class="bg-blue-50 px-4 py-10">
         <div class="container-xl lg:container m-auto">
-            <h2 class="text-3xl font-bold text-green-500 mb-6 text-center">Browse Jobs</h2>
+            <h2 class="text-3xl font-bold text-blue-950 mb-6 px-10 py-10 text-center">Browse Jobs</h2>
             <!-- Show loading spinner -->
             <div v-if="state.isLoading" class="text-center text-gray-500 py-6">
                 <pulseLoader />
@@ -44,12 +44,13 @@ onMounted(async () => {
             <div v-else class="grid grid-cols-1 gap-6 md:grid-cols-3">
                 <JobListing v-for="job in state.jobs.slice(0, limit || state.jobs.length)" :key="job.id" :job="job" />
             </div>
+            <RouterLink to="/jobs" class="bg-orange-600 text-white rounded-lg justify-center tracking-widest px-6 py-2 text-sm hover:bg-gray-900">
+                View All Jobs
+            </RouterLink>
         </div>
     </section>
     <section v-if="showButton" class="m-auto max-w-lg my-10 px-6">
-        <RouterLink to="/jobs" class="block bg-black text-white text-center py-4 px-6 rounded-xl hover:bg-gray-700">
-            View All Jobs
-        </RouterLink>
+        
     </section>
 
 </template>
