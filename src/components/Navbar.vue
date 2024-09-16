@@ -8,6 +8,29 @@ const isActiveLink = (routePath) => {
 }
 </script>
 
+<style scoped>
+.border-animation::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  background-color: theme('colors.orange.600');
+  transform: translateX(-50%);
+  transition: width 0.3s ease;
+}
+
+.border-animation:hover::before {
+  width: 100%;
+}
+
+.active-border::before {
+  width: 100%;
+  background-color: theme('colors.orange.600');
+}
+</style>
+
 <template>
   <nav class="bg-blue-950 border-b border-white">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -21,33 +44,31 @@ const isActiveLink = (routePath) => {
           <div class="md:ml-auto">
             <div class="flex space-x-2">
               <RouterLink to="/" :class="[
-                isActiveLink('/')
-                  ? 'bg-orange-600'
-                  : 'hover:bg-gray-900', 'hover:text-white',
-                'text-white',
-                'rounded-md',
                 'px-3',
-                'py-2'
-              ]">Home
+                'py-2',
+                'relative', // Ensure pseudo-element is positioned correctly
+                isActiveLink('/')
+                  ? 'text-orange-600 active-border'
+                  : 'text-white hover:text-orange-600 border-animation'
+              ]">
+                Home
               </RouterLink>
               <RouterLink to="/jobs" :class="[
-                isActiveLink('/jobs')
-                  ? 'bg-orange-600'
-                  : 'hover:bg-gray-900', 'hover:text-white',
-                'text-white',
-                'rounded-md',
                 'px-3',
-                'py-2'
+                'py-2',
+                'relative',
+                isActiveLink('/jobs')
+                  ? 'text-orange-600 active-border'
+                  : 'text-white hover:text-orange-600 border-animation'
               ]">Jobs
               </RouterLink>
               <RouterLink to="/jobs/add" :class="[
-                isActiveLink('/jobs/add')
-                  ? 'bg-orange-600'
-                  : 'hover:bg-gray-900', 'hover:text-white',
-                'text-white',
-                'rounded-md',
                 'px-3',
-                'py-2'
+                'py-2',
+                'relative',
+                isActiveLink('/jobs/add')
+                  ? 'text-orange-600 active-border'
+                  : 'text-white hover:text-orange-600 border-animation'
               ]">Add Job
               </RouterLink>
             </div>

@@ -15,7 +15,7 @@ import { RouterLink } from 'vue-router';
             </p>
             <RouterLink
               to="/jobs"
-              class="inline-block bg-orange-600 text-white rounded-lg tracking-widest px-6 py-2 text-sm hover:bg-gray-900"
+              class="bg-orange-600 text-white text-sm rounded-full tracking-widest hover:bg-white hover:text-orange-600 border-2 border-orange-600 transition-all duration-300 px-6 py-2"
             >
               BROWSE JOBS
             </RouterLink>
@@ -27,7 +27,7 @@ import { RouterLink } from 'vue-router';
             </p>
             <RouterLink
               to="/jobs/add"
-              class="inline-block bg-orange-600 text-white rounded-lg tracking-widest px-6  py-2 text-sm hover:bg-gray-900"
+              class="bg-orange-600 text-white text-sm rounded-full tracking-widest hover:bg-white hover:text-orange-600 border-2 border-orange-600 transition-all duration-300 px-6 py-2"
             >
               ADD JOB
             </RouterLink>

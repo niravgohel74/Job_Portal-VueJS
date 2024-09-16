@@ -14,17 +14,17 @@ import logo from '@/assets/images/logo.png'
             </RouterLink>
           </div>
           <div class="flex space-x-6 text-sm">
-            <RouterLink to="/" class="text-white hover:text-gray-400">Home</RouterLink>
-            <RouterLink to="/jobs" class="text-white hover:text-gray-400">Jobs</RouterLink>
-            <RouterLink to="/jobs/add" class="text-white hover:text-gray-400">Add Job</RouterLink>
-            <RouterLink to="/contact" class="text-white hover:text-gray-400">Contact Us</RouterLink>
+            <RouterLink to="/" class="text-white hover:text-orange-600">Home</RouterLink>
+            <RouterLink to="/jobs" class="text-white hover:text-orange-600">Jobs</RouterLink>
+            <RouterLink to="/jobs/add" class="text-white hover:text-orange-600">Add Job</RouterLink>
+            <RouterLink to="/contact" class="text-white hover:text-orange-600">Contact Us</RouterLink>
           </div>
         </div>
         <div class="mt-6 text-center">
           <p class="text-white text-sm">
             Copyright &copy; 2024 - All Rights Reserved | 
-            <RouterLink to="/privacy" class="hover:underline text-gray-400">Privacy Policy</RouterLink> |
-            <RouterLink to="/terms" class="hover:underline text-gray-400">Terms of Service</RouterLink>
+            <RouterLink to="/privacy" class="hover:underline text-orange-600">Privacy Policy</RouterLink> |
+            <RouterLink to="/terms" class="hover:underline text-orange-600">Terms of Service</RouterLink>
           </p>
         </div>
       </div>

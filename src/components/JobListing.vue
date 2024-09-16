@@ -50,7 +50,8 @@ const truncatedDescription = computed(() => {
                     {{ job.location }}
                 </div>
                 <RouterLink :to="`/jobs/${job.id}`"
-                    class="h-[36px] bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg text-center text-sm">
+                    class="bg-orange-600 text-white text-sm rounded-full tracking-widest hover:bg-white hover:text-orange-600 border-2 border-orange-600 transition-all duration-300 px-6 py-2" >
+                    <i class="fa-sharp fa-light fa-arrow-right"></i>
                     Read More
                 </RouterLink>
             </div>
