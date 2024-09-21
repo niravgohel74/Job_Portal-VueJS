@@ -1,30 +1,40 @@
-<script setup>
-import { defineProps } from 'vue';
-
-defineProps({
-    title:{
-        type: String,
-        default: 'BECOME A VUE DEVELOPER'
-    },
-    subtitle:{
-        type: String,
-        default: 'Find the Vue job that fits your skills and needs'
-    }
-})
-</script>
-
 <template>
-    <!-- Hero -->
-    <section class="bg-blue-950 py-20 mb-4">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
-            <div class="text-center">
-                <h1 class="text-4xl font-semibold text-white sm:text-5xl md:text-6xl">
-                    {{ title }}
-                </h1>
-                <p class="my-4 text-xl text-orange-600">
-                    {{ subtitle }}
-                </p>
-            </div>
+    <section class="bg-white py-20 mb-4">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
+        <div class="text-center">
+          <h1 class="text-4xl font-semibold text-black sm:text-5xl md:text-6xl animate-fade-in">
+            {{ title }}
+          </h1>
+          <p class="my-4 text-xl text-gray-700">
+            {{ subtitle }}
+          </p>
         </div>
+      </div>
     </section>
-</template>
+  </template>
+  
+  <script setup>
+  import { defineProps } from 'vue';
+  
+  defineProps({
+    title: {
+      type: String,
+      default: 'BECOME A VUE DEVELOPER'
+    },
+    subtitle: {
+      type: String,
+      default: 'Find the Vue job that fits your skills and needs'
+    }
+  });
+  </script>
+  
+  <style scoped>
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  .animate-fade-in {
+    animation: fade-in 1s ease-in;
+  }
+  </style>
+  
