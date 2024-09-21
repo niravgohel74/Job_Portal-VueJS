@@ -10,6 +10,17 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { createApp } from 'vue'
 import App from './App.vue'
 
+router.beforeEach((to, from, next) => {
+    document.title = to.meta.title || 'Job Portal';
+  
+    const favicon = document.querySelector("link[rel='icon']");
+    if (favicon) {
+      favicon.href = to.meta.favicon || '/favicon.ico';
+    }
+  
+    next();
+  });
+
 const app = createApp(App)
 
 app.use(router);
