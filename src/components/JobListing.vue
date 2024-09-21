@@ -1,14 +1,14 @@
 <template>
   <div class="job-listing bg-white rounded-xl shadow-lg p-6 transition-transform duration-300 hover:shadow-xl">
-    <h3 class="text-xl font-bold">{{ job.title }}</h3>
+    <h3 class="text-xl font-bold text-blue-950">{{ job.title }}</h3>
     <div class="text-gray-600 my-2">{{ job.type }}</div>
-    <p>{{ truncatedDescription }}</p>
-    <h3 class="text-black font-semibold mb-2">{{ job.salary }} / Year</h3>
+    <p class="mb-5 mt-4">{{ truncatedDescription }}</p>
+    <h3 class="text-blue-950 font-bold mb-4">{{ job.salary }} / Year</h3>
     <div class="border border-gray-200 mb-4"></div>
     <div class="flex justify-between items-center">
-      <div class="text-gray-600">{{ job.location }}</div>
-      <RouterLink :to="`/jobs/${job.id}`" class="bg-black text-white rounded-full tracking-widest text-sm px-6 py-2 hover:bg-white hover:text-black border-2 border-black transition-all duration-300">
-        View Job
+      <div class="text-gray-600 "><i class="pi pi-map-marker mr-2 text-red-600"></i>{{ job.location }}</div>
+      <RouterLink :to="`/jobs/${job.id}`" class="bg-btncolor text-blue-950 font-bold rounded-full tracking-widest text-sm px-6 py-2 hover:bg-blue-950 hover:text-white transition-all duration-300">
+        VIEW JOB
       </RouterLink>
     </div>
   </div>

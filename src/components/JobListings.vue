@@ -1,16 +1,16 @@
 <template>
   <section class="bg-white px-10 py-10">
     <div class="container-xl lg:container m-auto">
-      <h2 class="text-3xl font-bold text-black mb-10 text-center">Browse Jobs</h2>
+      <h2 class="text-3xl font-bold text-blue-950 mb-10 text-center">Browse Jobs</h2>
       <div v-if="state.isLoading" class="text-center text-gray-500 py-6">
         <pulseLoader />
       </div>
       <div v-else class="grid grid-cols-1 gap-10 md:grid-cols-3">
-        <JobListing v-for="job in state.jobs.slice(0, limit || state.jobs.length)" :key="job.id" :job="job" />
+        <JobListing v-for="job in state.jobs.slice(0, limit || state.jobs.length)" :key="job.id" :job="job" class="border border-gray-300 hover:shadow-2xl" />
       </div>
       <div v-if="showButton" class="flex justify-center mt-20 mb-10">
-        <RouterLink to="/jobs" class="bg-black text-white rounded-full tracking-widest font-bold px-8 py-2 hover:bg-white hover:text-black border-2 border-black transition-all duration-300">
-          View All Jobs
+        <RouterLink to="/jobs" class="bg-btncolor text-blue-950 rounded-full tracking-widest font-bold px-10 py-4 hover:bg-blue-950 hover:text-white transition-all duration-300">
+          VIEW ALL JOBS
         </RouterLink>
       </div>
     </div>

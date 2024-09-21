@@ -10,6 +10,10 @@ export default {
       gridTemplateColumns: {
         '70/30': '70% 30%',
       },
+      colors: {
+        btncolor: '#BDD2E4',
+        nfcolor: '#121212',
+      },
     },
   },
   variants: {

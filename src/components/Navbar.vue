@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-black border-b border-white">
+  <nav class="bg-blue-950 border-b border-gray-400">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div class="flex h-20 items-center justify-between">
         <div class="flex flex-1 items-center justify-center md:items-stretch md:justify-start">
@@ -9,11 +9,11 @@
           </RouterLink>
           <div class="md:ml-auto">
             <div class="flex space-x-2">
-              <RouterLink to="/" :class="['px-3 py-2 relative', isActiveLink('/') ? 'text-white' : 'text-gray-400 hover:text-white transition']">
+              <RouterLink to="/" :class="['px-3 py-2 relative', isActiveLink('/') ? 'text-gray-400' : 'text-white hover:text-gray-400 transition']">
                 Home
               </RouterLink>
-              <RouterLink to="/jobs" :class="['px-3 py-2 relative', isActiveLink('/jobs') ? 'text-white' : 'text-gray-400 hover:text-white transition']">Jobs</RouterLink>
-              <RouterLink to="/jobs/add" :class="['px-3 py-2 relative', isActiveLink('/jobs/add') ? 'text-white' : 'text-gray-400 hover:text-white transition']">Add Job</RouterLink>
+              <RouterLink to="/jobs" :class="['px-3 py-2 relative', isActiveLink('/jobs') ? 'text-gray-400' : 'text-white hover:text-gray-400 transition']">Jobs</RouterLink>
+              <RouterLink to="/jobs/add" :class="['px-3 py-2 relative', isActiveLink('/jobs/add') ? 'text-gray-400' : 'text-white hover:text-gray-400 transition']">Add Job</RouterLink>
             </div>
           </div>
         </div>
