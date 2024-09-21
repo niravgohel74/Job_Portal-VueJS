@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: [ "Rajdhani", 'sans-serif'],
-        sans: [ "Inter", "sans-serif"],
+        title: [ "Rajdhani", 'sans-serif'],
+        body: [ "Inter", "sans-serif"],
       },
       gridTemplateColumns: {
         '70/30': '70% 30%',

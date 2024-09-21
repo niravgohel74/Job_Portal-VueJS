@@ -1,7 +1,7 @@
 <template>
   <section class="bg-white px-10 py-10">
     <div class="container-xl lg:container m-auto">
-      <h2 class="text-3xl font-bold text-blue-950 mb-10 text-center">Browse Jobs</h2>
+      <h2 class="text-3xl font-bold text-blue-950 mb-10 text-center font-title">Browse Jobs</h2>
       <div v-if="state.isLoading" class="text-center text-gray-500 py-6">
         <pulseLoader />
       </div>

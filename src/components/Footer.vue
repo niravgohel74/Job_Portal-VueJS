@@ -5,7 +5,6 @@
         <div class="flex items-center space-x-4">
           <RouterLink class="flex flex-shrink-0 items-center" to="/">
             <img class="h-8 w-auto" :src="logo" alt="Vue Jobs" />
-            <span class="hidden md:block text-white text-xl font-bold ml-2">Vue Jobs</span>
           </RouterLink>
         </div>
         <div class="flex space-x-6 text-sm">
