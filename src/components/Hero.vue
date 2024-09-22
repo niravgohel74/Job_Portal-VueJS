@@ -1,20 +1,19 @@
 <template>
-    <section class="relative bg-blue-950 py-56 mb-4">
-    <div 
+  <section class="relative bg-blue-950 py-56 mb-4">
+    <div
       class="absolute inset-0 bg-no-repeat opacity-15 bg-[url('../assets/images/hero.jpg')] bg-cover bg-[center_top_30%]">
     </div>
-
-        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
-            <div class="text-center">
-                <h1 class="text-4xl font-bold font-title text-white sm:text-5xl md:text-7xl animate-fade-in">
-                    {{ title }}
-                </h1>
-                <p class="my-4 text-xl font-body text-white">
-                    {{ subtitle }}
-                </p>
-            </div>
-        </div>
-    </section>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
+      <div class="text-center">
+        <h1 class="text-4xl font-bold font-title text-white sm:text-5xl md:text-7xl animate-fade-in">
+          {{ title }}
+        </h1>
+        <p class="my-4 text-xl font-body text-white">
+          {{ subtitle }}
+        </p>
+      </div>
+    </div>
+  </section>
 </template>
   
   <script setup>

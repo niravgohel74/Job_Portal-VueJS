@@ -7,10 +7,8 @@
           <p class="mt-2 mb-4 text-gray-600 font-body">
             Browse our jobs and start your career today
           </p>
-          <RouterLink
-            to="/jobs"
-            class="bg-btncolor font-body text-blue-950 font-bold text-sm rounded-full tracking-widest hover:bg-blue-950 hover:text-white transition-all duration-300 px-6 py-2"
-          >
+          <RouterLink to="/jobs"
+            class="bg-btncolor font-body text-blue-950 font-bold text-sm rounded-full tracking-widest hover:bg-blue-950 hover:text-white transition-all duration-300 px-6 py-2">
             BROWSE JOBS
           </RouterLink>
         </Card>
@@ -19,10 +17,8 @@
           <p class="mt-2 mb-4 text-gray-600 font-body">
             List your job to find the perfect developer for the role
           </p>
-          <RouterLink
-            to="/jobs/add"
-            class="bg-btncolor font-body text-blue-950 font-bold text-sm rounded-full tracking-widest hover:bg-blue-950 hover:text-white border-black transition-all duration-300 px-6 py-2"
-          >
+          <RouterLink to="/jobs/add"
+            class="bg-btncolor font-body text-blue-950 font-bold text-sm rounded-full tracking-widest hover:bg-blue-950 hover:text-white border-black transition-all duration-300 px-6 py-2">
             ADD JOB
           </RouterLink>
         </Card>

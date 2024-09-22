@@ -1,87 +1,157 @@
 {
   "jobs": [
     {
-      "title": "Senior Vue Dev",
+      "title": "Software Engineer",
       "type": "Full-Time",
-      "location": "Boston, MA",
-      "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as Vue or Angular.",
+      "description": "Responsible for developing and maintaining web applications. Should have experience with JavaScript frameworks and cloud services. Strong problem-solving skills are essential.",
       "salary": "$90K - $100K",
+      "location": "San Francisco, CA",
       "company": {
-        "name": "NewTek Solutions",
-        "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
-        "contactEmail": "contact@teksolutions.com",
-        "contactPhone": "555-555-5555"
+        "name": "Tech Innovators Inc.",
+        "description": "A forward-thinking tech company specializing in AI-driven software solutions for the healthcare industry.",
+        "contactEmail": "hr@techinnovators.com",
+        "contactPhone": "+1 415-555-0123"
       },
       "id": "1"
     },
     {
-      "title": "Front-End Engineer (Vue)",
+      "title": "Graphic Designer",
       "type": "Part-Time",
-      "description": "Join our team as a Front-End Developer in sunny Miami, FL. We are looking for a motivated individual with a passion for crafting beautiful and responsive web applications. Experience with UI/UX design principles and a strong attention to detail are highly desirable.",
-      "salary": "$70K - $80K",
-      "location": "Miami, FL",
+      "description": "Design visual assets for web and print, including banners, infographics, and marketing material. Proficiency in Adobe Creative Suite required.",
+      "salary": "$50K - $60K",
+      "location": "Remote",
       "company": {
-        "name": "Veneer Solutions",
-        "description": "Veneer Solutions is a creative agency specializing in digital design and development. Our team is dedicated to pushing the boundaries of creativity and innovation to deliver exceptional results for our clients.",
-        "contactEmail": "contact@loremipsum.com",
-        "contactPhone": "555-555-5555"
+        "name": "Creative Solutions Studio",
+        "description": "A small but dynamic design studio catering to startups and small businesses, providing high-quality branding services.",
+        "contactEmail": "contact@creativesolutions.com",
+        "contactPhone": "+1 305-555-0198"
       },
       "id": "2"
     },
     {
-      "id": "3",
-      "title": "Vue.js Developer",
-      "type": "Full-Time",
-      "description": "Are you passionate about front-end development? Join our team in vibrant Brooklyn, NY, and work on exciting projects that make a difference. We offer competitive compensation and a collaborative work environment where your ideas are valued.",
-      "location": "Brooklyn, NY",
-      "salary": "$70K - $80K",
+      "title": "Marketing Specialist Intern",
+      "type": "Internship",
+      "description": "Support the marketing team with social media management, campaign creation, and performance analytics. Excellent communication and organizational skills required.",
+      "salary": "Under $50K",
+      "location": "Chicago, IL",
       "company": {
-        "name": "Dolor Cloud",
-        "description": "Dolor Cloud is a leading technology company specializing in digital solutions for businesses of all sizes. With a focus on innovation and customer satisfaction, we are committed to delivering cutting-edge products and services.",
-        "contactEmail": "contact@dolorsitamet.com",
-        "contactPhone": "555-555-5555"
-      }
+        "name": "Bright Horizons Marketing",
+        "description": "A full-service marketing agency focused on helping businesses grow through data-driven strategies.",
+        "contactEmail": "info@brighthorizons.com",
+        "contactPhone": "+1 312-555-0456"
+      },
+      "id": "3"
     },
     {
-      "id": "4",
-      "title": "Vue Front-End Developer",
+      "title": "Project Manager",
+      "type": "Full-Time",
+      "description": "Oversee project timelines, manage cross-functional teams, and ensure project delivery within scope and budget. Experience with Agile methodologies preferred.",
+      "salary": "$125K - $150K",
+      "location": "New York, NY",
+      "company": {
+        "name": "Global Ventures LLC",
+        "description": "A leading consulting firm offering business solutions for enterprise-level organizations globally.",
+        "contactEmail": "recruitment@globalventures.com",
+        "contactPhone": "+1 646-555-0345"
+      },
+      "id": "4"
+    },
+    {
+      "title": "Data Analyst",
+      "type": "Full-Time",
+      "description": "Analyze data trends to provide actionable insights. Should be proficient in Python, SQL, and data visualization tools like Tableau or Power BI.",
+      "salary": "$80K - $90K",
+      "location": "Austin, TX",
+      "company": {
+        "name": "DataSense Analytics",
+        "description": "A growing analytics firm providing cutting-edge solutions for business intelligence and data-driven decision-making.",
+        "contactEmail": "careers@datasense.com",
+        "contactPhone": "+1 512-555-0234"
+      },
+      "id": "5"
+    },
+    {
+      "title": "DevOps Engineer",
+      "type": "Full-Time",
+      "description": "Manage CI/CD pipelines, automate infrastructure deployment, and ensure smooth integration between development and operations teams. Experience with AWS or Azure is required.",
+      "salary": "$100K - $125K",
+      "location": "Seattle, WA",
+      "company": {
+        "name": "CloudOps Solutions",
+        "description": "A leader in cloud computing and DevOps services, helping companies streamline operations and improve cloud infrastructure.",
+        "contactEmail": "jobs@cloudops.com",
+        "contactPhone": "+1 206-555-0897"
+      },
+      "id": "0ab8"
+    },
+    {
+      "title": "HR Manager",
       "type": "Part-Time",
-      "description": "Join our team as a Part-Time Front-End Developer in beautiful Pheonix, AZ. We are looking for a self-motivated individual with a passion for creating engaging user experiences. This position offers flexible hours and the opportunity to work remotely.",
-      "location": "Pheonix, AZ",
+      "description": "Manage recruitment processes, employee relations, and benefits administration. Must have strong organizational and interpersonal skills.",
+      "salary": "$50K - $60K",
+      "location": "Denver, CO",
+      "company": {
+        "name": "PeopleFirst Solutions",
+        "description": "A boutique HR consultancy offering outsourced HR solutions for startups and growing businesses.",
+        "contactEmail": "hr@peoplefirst.com",
+        "contactPhone": "+1 303-555-0467"
+      },
+      "id": "8016"
+    },
+    {
+      "id": "c245",
+      "title": "Content Writer",
+      "type": "Remote",
+      "description": "Write engaging blog posts, articles, and marketing copy. Strong SEO knowledge and excellent writing skills are a must.",
       "salary": "$60K - $70K",
+      "location": "Remote",
       "company": {
-        "name": "Alpha Elite",
-        "description": "Alpha Elite is a dynamic startup specializing in digital marketing and web development. We are committed to fostering a diverse and inclusive workplace where creativity and innovation thrive.",
-        "contactEmail": "contact@adipisicingelit.com",
-        "contactPhone": "555-555-5555"
+        "name": "WriteWell Co.",
+        "description": "A content marketing agency helping brands grow through targeted storytelling and effective content strategies.",
+        "contactEmail": "jobs@writewell.co",
+        "contactPhone": "+1 415-555-0621"
       }
     },
     {
-      "id": "5",
-      "title": "Full Stack Vue Developer",
+      "id": "4f5c",
+      "title": "UX/UI Designer",
       "type": "Full-Time",
-      "description": "Exciting opportunity for a Full-Time Front-End Developer in bustling Atlanta, GA. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
-      "location": "Atlanta, GA",
+      "description": "Design user interfaces and enhance user experience for web and mobile applications. Expertise in Figma, Adobe XD, and wireframing required.",
       "salary": "$90K - $100K",
+      "location": "Los Angeles, CA",
       "company": {
-        "name": "Browning Technologies",
-        "description": "Browning Technologies is a rapidly growing technology company specializing in e-commerce solutions. We offer a dynamic and collaborative work environment where employees are encouraged to think creatively and innovate.",
-        "contactEmail": "contact@consecteturadipisicing.com",
-        "contactPhone": "555-555-5555"
+        "name": "PixelPerfect Studios",
+        "description": "A creative agency delivering top-notch UI/UX design for a wide range of industries.",
+        "contactEmail": "design@pixelperfect.com",
+        "contactPhone": "+1 323-555-0789"
       }
     },
     {
-      "id": "6",
-      "title": "Vue Native Developer",
+      "id": "cede",
+      "title": "Systems Administrator",
       "type": "Full-Time",
-      "description": "Join our team as a Front-End Developer in beautiful Portland, OR. We are looking for a skilled and enthusiastic individual to help us create innovative web solutions. Competitive salary and great benefits package available.",
-      "location": "Portland, OR",
-      "salary": "$100K - $110K",
+      "description": "Manage and maintain IT infrastructure. Ensure system reliability and performance. Collaborate with the IT team on various projects.",
+      "salary": "$100K - $125K",
+      "location": "Seattle, WA",
       "company": {
-        "name": "Port Solutions INC",
-        "description": "Port Solutions is a leading technology company specializing in software development and digital marketing. We are committed to providing our clients with cutting-edge solutions and our employees with a supportive and rewarding work environment.",
-        "contactEmail": "contact@ipsumlorem.com",
-        "contactPhone": "555-555-5555"
+        "name": "Tech Systems Corp.",
+        "description": "A leading provider of IT services and solutions for businesses.",
+        "contactEmail": "jobs@techsystems.com",
+        "contactPhone": "(555) 789-0123"
+      }
+    },
+    {
+      "id": "408c",
+      "title": "Marketing Coordinator",
+      "type": "Full-Time",
+      "description": "Assist in the development and execution of marketing campaigns. Analyze campaign performance and provide recommendations for improvement.",
+      "salary": "$80K - $90K",
+      "location": " Austin, TX",
+      "company": {
+        "name": "Bright Marketing",
+        "description": "A marketing agency that focuses on innovative strategies and creative solutions.",
+        "contactEmail": "hr@brightmarketing.com",
+        "contactPhone": "(555) 654-3210"
       }
     }
   ]

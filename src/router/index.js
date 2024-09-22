@@ -5,6 +5,10 @@ import NotFound from '@/views/NotFound.vue';
 import JobView from '@/views/JobView.vue';
 import AddJob from '@/views/AddJob.vue';
 import EditJob from '@/views/EditJob.vue';
+import Contact from '@/views/Contact.vue';
+import signIn from '@/views/SignIn.vue';
+import signUp from '@/views/SignUp.vue';
+
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -17,6 +21,24 @@ const router = createRouter({
                 title: 'Home - JobSphere',
             },
             favicon: '/favicon-home.ico'
+        },
+        {
+            path: '/signin',
+            name: 'signin',
+            component: signIn,
+            meta: {
+                title: 'Login - JobSphere',
+            },
+            favicon: '/favicon-login.ico'
+        },
+        {
+            path: '/signup',
+            name: 'signup',
+            component: signUp,
+            meta: {
+                title: 'Signup - JobSphere',
+            },
+            favicon: '/favicon-signup.ico'
         },
         {
             path: '/jobs',
@@ -53,6 +75,15 @@ const router = createRouter({
                 title: 'Edit Job - JobSphere',
             },
             favicon: '/favicon-edit-job.ico'
+        },
+        {
+            path: '/contact',
+            name: 'contact',
+            component: Contact,
+            meta: {
+                title: 'Contact - JobSphere',
+            },
+            favicon: '/favicon-contact.ico'
         },
         {
             path: '/:catchAll(.*)',

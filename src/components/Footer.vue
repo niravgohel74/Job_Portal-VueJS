@@ -25,6 +25,14 @@
   </footer>
 </template>
 
+<style>
+html, body {
+  height: 100%;
+  margin: 0;
+}
+</style>
+
+
 <script setup>
 import { RouterLink } from 'vue-router';
 import logo from '@/assets/images/logo.png';
