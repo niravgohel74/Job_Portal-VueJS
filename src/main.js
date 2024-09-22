@@ -6,6 +6,7 @@ import router from './router';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import '@fortawesome/fontawesome-free/css/all.css';
 
 import { createApp } from 'vue'
 import App from './App.vue'

@@ -12,8 +12,8 @@
               <RouterLink to="/jobs" :class="['px-3 py-2 relative', isActiveLink('/jobs') ? 'text-gray-400' : 'text-white hover:text-gray-400 transition font-body']">Jobs</RouterLink>
               <RouterLink to="/jobs/add" :class="['px-3 py-2 relative', isActiveLink('/jobs/add') ? 'text-gray-400' : 'text-white hover:text-gray-400 transition font-body']">Add Job</RouterLink>
               <RouterLink to="/contact" :class="['px-3 py-2 relative', isActiveLink('/contact') ? 'text-gray-400' : 'text-white hover:text-gray-400 transition font-body']">Contact Us</RouterLink>
-              <RouterLink to="/signup" :class="['px-3 py-2 relative', isActiveLink('/signup') ? 'text-gray-400' : 'text-white hover:text-gray-400 transition font-body']">Sign Up</RouterLink>
               <RouterLink to="/signin" :class="['px-3 py-2 relative', isActiveLink('/signin') ? 'text-gray-400' : 'text-white hover:text-gray-400 transition font-body']">Sign In</RouterLink>
+              <RouterLink to="/signup" :class="['px-3 py-2 relative', isActiveLink('/signup') ? 'text-gray-400' : 'text-white hover:text-gray-400 transition font-body']">Sign Up</RouterLink>
             </div>
           </div>
         </div>
