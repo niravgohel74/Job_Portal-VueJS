@@ -18,7 +18,7 @@ const router = createRouter({
             name: 'home',
             component: HomeView,
             meta: {
-                title: 'Home - JobSphere',
+                title: 'Home | JobSphere',
             },
             favicon: '/favicon-home.ico'
         },
@@ -27,7 +27,7 @@ const router = createRouter({
             name: 'signin',
             component: signIn,
             meta: {
-                title: 'Login - JobSphere',
+                title: 'Login | JobSphere',
             },
             favicon: '/favicon-login.ico'
         },
@@ -36,7 +36,7 @@ const router = createRouter({
             name: 'signup',
             component: signUp,
             meta: {
-                title: 'Signup - JobSphere',
+                title: 'Signup | JobSphere',
             },
             favicon: '/favicon-signup.ico'
         },
@@ -45,7 +45,7 @@ const router = createRouter({
             name: 'jobs',
             component: JobsView,
             meta: {
-                title: 'Jobs - JobSphere',
+                title: 'Jobs | JobSphere',
             },
             favicon: '/favicon-jobs.ico'
         },
@@ -54,7 +54,7 @@ const router = createRouter({
             name: 'job',
             component: JobView,
             meta: {
-                title: 'Job - JobSphere',
+                title: 'Job | JobSphere',
             },
             favicon: '/favicon-job.ico'
         },
@@ -63,7 +63,7 @@ const router = createRouter({
             name: 'add-job',
             component: AddJob,
             meta: {
-                title: 'Add Job - JobSphere',
+                title: 'Add Job | JobSphere',
             },
             favicon: '/favicon-add-job.ico'
         },
@@ -72,7 +72,7 @@ const router = createRouter({
             name: 'edit-job',
             component: EditJob,
             meta: {
-                title: 'Edit Job - JobSphere',
+                title: 'Edit Job | JobSphere',
             },
             favicon: '/favicon-edit-job.ico'
         },
@@ -81,7 +81,7 @@ const router = createRouter({
             name: 'contact',
             component: Contact,
             meta: {
-                title: 'Contact - JobSphere',
+                title: 'Contact | JobSphere',
             },
             favicon: '/favicon-contact.ico'
         },
