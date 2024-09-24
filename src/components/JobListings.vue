@@ -6,7 +6,12 @@
           <div class="text-center">
             <h2
               class="text-4xl font-bold text-blue-950 mb-10 font-title tracking-widest border-b-2 border-blue-950 inline-block">
-              Browse Jobs</h2>
+              Browse Jobs
+            </h2>
+          </div>
+          <div class="text-center mb-5">
+            <i class="fa-duotone fa fa-gears text-9xl text-amber-500"></i>
+            <h6 class="text-blue-950 font-bold text-5xl">Site is Under Development!</h6>
           </div>
           <div v-if="state.isLoading" class="text-center text-gray-500 py-6">
             <pulseLoader />
